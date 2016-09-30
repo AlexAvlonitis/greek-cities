@@ -1,5 +1,5 @@
 module GreekCities
-  NOMOI = [
+  STATES = [
     ['Αιτωλοακαρνανίας', 'AIT'],
     ['Αργολίδας', 'ARG'],
     ['Αρκαδίας', 'ARΚ'],
