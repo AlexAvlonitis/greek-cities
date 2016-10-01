@@ -3,7 +3,7 @@ module GreekCities
     ARGOLIDA = [
       ['Άργος - Μυκήνες', 'argos-mikines-ARG'],
       ['Επίδαυρος', 'epidavros-ARG'],
-      ['Ερμιονίδα', 'ermionida-ARG'],
+      ['Κρανίδι', 'kranidi-ARG'],
       ['Ναύπλιο', 'nafplio-ARG']
     ].freeze.clone
   end

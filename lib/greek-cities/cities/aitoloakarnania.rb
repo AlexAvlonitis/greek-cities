@@ -5,9 +5,9 @@ module GreekCities
       ['Άκτιο - Βόνιτσα', 'aktio-vonitsa-AIT'],
       ['Αμφιλοχία', 'amfilohia-AIT'],
       ['Θέρμο', 'thermo-AIT'],
-      ['Ιερά Πόλη Μεσολογγίου', 'iera-poli-mesologgiou-AIT'],
+      ['Μεσολόγγι', 'mesologgi-AIT'],
       ['Ναύπακτος', 'naupaktos-AIT'],
-      ['Ξηρόμερο', 'xiromero-AIT']
+      ['Αστακός', 'astakos-AIT']
     ].freeze.clone
   end
 end
