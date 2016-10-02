@@ -19,7 +19,6 @@ module GreekCities
       ['Ηλιούπολη', 'ilioupoli-ATT'],
       ['Ζωγράφου', 'zografou-ATT'],
       ['Γαλάτσι', 'galatsi-ATT'],
-      ['Γαλάτσι', 'galatsi-ATT'],
       ['Βριλήσσια', 'vrilissia-ATT'],
       ['Μαρούσι', 'marousi-ATT'],
       ['Άλιμος', 'alimos-ATT'],
