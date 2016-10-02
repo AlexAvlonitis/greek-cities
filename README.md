@@ -3,7 +3,7 @@ greek-cities gem includes all the states (nomous) of Greece and their biggest ci
 
 ## Install the gem
 ```ruby
-gem 'greek-cities'
+gem 'greek-cities', '~> 0.0.1'
 ```
 
 ## List of all states
