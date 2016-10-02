@@ -14,6 +14,6 @@ Gem::Specification.new do |s|
   s.email         = 'avlonitis@msn.com'
   s.files         = Dir.glob("{bin,lib}/**/*") + %w(README.md)
   s.require_path  = 'lib'
-  s.homepage      = 'http://rubygems.org/gems/greek-cities'
+  s.homepage      = 'https://github.com/AlexAvlonitis/greek-cities'
   s.license       = 'MIT'
 end
