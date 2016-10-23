@@ -20,6 +20,18 @@ GC.cities("arg")
 # => [["Άργος - Μυκήνες", "argos-mikines-ARG"], ["Επίδαυρος", "epidavros-ARG"], ["Κρανίδι", "kranidi-ARG"], ["Ναύπλιο", "nafplio-ARG"]]
 
 ```
+
+## Fetch a state name in Greek
+```ruby
+GC.get_state_name('ait')
+# => "Αιτωλοακαρνανίας"
+```
+
+## Fetch a city name in Greek
+```ruby
+GC.get_city_name('att', 'holargos-ATT')
+# => "Χολαργός"
+```
 *Enter a state code as an argument. It's not case sensitive, you could enter "ARG".*
 
 ## Rails examples
