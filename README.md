@@ -55,4 +55,4 @@ GC.get_city_name('att', 'holargos-ATT')
 ```
 
 ## greek-cities License
-greek-cities is an open source project by Alex Avlonitis with a MIT license.
+greek-cities is an open source project by Alex Avlonitis with an MIT license.
