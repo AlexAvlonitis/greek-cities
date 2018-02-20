@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/AlexAvlonitis/rails-5-api.svg?branch=master)](https://travis-ci.org/AlexAvlonitis/rails-5-api)
+
 # greek-cities ruby gem
 greek-cities gem includes all the states (nomous) of Greece and their biggest cities, displayed in greek.
 
