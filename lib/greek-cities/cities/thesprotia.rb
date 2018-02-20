@@ -4,6 +4,6 @@ module GreekCities
       ['Ηγουμενίτσα', 'igoumenitsa-THESP'],
       ['Φιλιάτες', 'filiates-THESP'],
       ['Παραμυθιά', 'paramithia-THESP']
-    ].freeze.clone
+    ].freeze
   end
 end

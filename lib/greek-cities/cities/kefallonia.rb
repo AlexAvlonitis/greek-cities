@@ -3,6 +3,6 @@ module GreekCities
     KEFALLONIA = [
       ['Αργοστόλι', 'argostoli-KEF'],
       ['Ιθάκη', 'ithaki-KEF']
-    ].freeze.clone
+    ].freeze
   end
 end

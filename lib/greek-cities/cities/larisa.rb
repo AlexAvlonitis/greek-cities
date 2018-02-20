@@ -8,6 +8,6 @@ module GreekCities
       ['Τύρναβος', 'tirnavos-LAR'],
       ['Λάρισα', 'larisa-LAR'],
       ['Νίκαια', 'nikaia-LAR']
-    ].freeze.clone
+    ].freeze
   end
 end

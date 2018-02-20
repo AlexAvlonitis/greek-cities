@@ -3,6 +3,6 @@ module GreekCities
     HIOS = [
       ['Χίος', 'hios-HIO'],
       ['Οινούσσες και Ψαρά', 'oinousses-psara-HIO']
-    ].freeze.clone
+    ].freeze
   end
 end

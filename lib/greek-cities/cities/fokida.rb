@@ -3,6 +3,6 @@ module GreekCities
     FOKIDA = [
       ['Αμφισσα', 'amfissa-FOK'],
       ['Λιδωρίκι', 'lidoriki-FOK']
-    ].freeze.clone
+    ].freeze
   end
 end

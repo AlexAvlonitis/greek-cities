@@ -5,6 +5,6 @@ module GreekCities
       ['Ιασμός', 'iasmos-ROD'],
       ['Σάπες', 'sapes-ROD'],
       ['Φιλλύρα', 'fillyra-ROD']
-    ].freeze.clone
+    ].freeze
   end
 end

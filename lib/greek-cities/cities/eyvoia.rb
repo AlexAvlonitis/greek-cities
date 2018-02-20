@@ -9,6 +9,6 @@ module GreekCities
       ['Λίμνη', 'limni-EYV'],
       ['Αλιβέρι', 'aliveri-EYV'],
       ['Σκύρος', 'skiros-EYV']
-    ].freeze.clone
+    ].freeze
   end
 end

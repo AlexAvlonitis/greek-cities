@@ -5,7 +5,7 @@ module GreekCities
       ['Νίκητη', 'nikiti-HAL'],
       ['Κασσάνδρεια', 'kassandreia-HAL'],
       ['Μουδανιά', 'moudania-HAL'],
-      ['Ιερισσός', 'ιerissos-HAL']
-    ].freeze.clone
+      ['Ιερισσός', 'ierissos-HAL']
+    ].freeze
   end
 end

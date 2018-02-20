@@ -4,6 +4,6 @@ module GreekCities
       ['Βέροια', 'veroia-IMA'],
       ['Αλεξάνδρεια', 'alexandreia-IMA'],
       ['Νάουσα', 'naousa-IMA']
-    ].freeze.clone
+    ].freeze
   end
 end

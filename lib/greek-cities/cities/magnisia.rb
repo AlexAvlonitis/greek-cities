@@ -9,6 +9,6 @@ module GreekCities
       ['Αλόννησος', 'alonnisos-MAG'],
       ['Σκιάθος', 'skiathos-MAG'],
       ['Σκοπέλος', 'skopelos-MAG']
-    ].freeze.clone
+    ].freeze
   end
 end

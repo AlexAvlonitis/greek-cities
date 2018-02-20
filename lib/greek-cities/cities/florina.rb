@@ -4,6 +4,6 @@ module GreekCities
       ['Φλώρινα', 'florina-FLO'],
       ['Αμύνταιο', 'amintaio-FLO'],
       ['Λαιμός', 'laimos-FLO']
-    ].freeze.clone
+    ].freeze
   end
 end

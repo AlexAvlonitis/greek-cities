@@ -4,6 +4,6 @@ module GreekCities
       ['Μυτιλήνη', 'mitilini-LES'],
       ['Μύρινα', 'mirina-LES'],
       ['Άγιος Ευστράτιος', 'ag-efstratios-LES']
-    ].freeze.clone
+    ].freeze
   end
 end

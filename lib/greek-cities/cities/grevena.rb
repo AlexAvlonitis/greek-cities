@@ -3,6 +3,6 @@ module GreekCities
     GREVENA = [
       ['Δεσκάτη', 'deskati-GRE'],
       ['Γρεβενά', 'grevena-GRE']
-    ].freeze.clone
+    ].freeze
   end
 end

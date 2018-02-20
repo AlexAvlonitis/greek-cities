@@ -5,6 +5,6 @@ module GreekCities
       ['Πέτα', 'peta-ART'],
       ['Ανω Καλεντίνη', 'ano-kalentini-ART'],
       ['Βουλγαρέλι', 'voulgareli-ART']
-    ].freeze.clone
+    ].freeze
   end
 end

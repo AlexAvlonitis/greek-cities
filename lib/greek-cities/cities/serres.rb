@@ -8,6 +8,6 @@ module GreekCities
       ['Ροδολίβος', 'rodolivos-SER'],
       ['Νέα Ζίχνη', 'nea-zihni-SER'],
       ['Ηράκλεια', 'irakleia-SER']
-    ].freeze.clone
+    ].freeze
   end
 end

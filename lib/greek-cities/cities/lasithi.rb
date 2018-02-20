@@ -4,6 +4,6 @@ module GreekCities
       ['Αγιος Νικόλαος', 'ag-nikolaos-LAS'],
       ['Σητεία', 'siteia-LAS'],
       ['Ιεράπετρα', 'ierapetra-LAS']
-    ].freeze.clone
+    ].freeze
   end
 end

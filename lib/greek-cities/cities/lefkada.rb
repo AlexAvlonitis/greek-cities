@@ -3,6 +3,6 @@ module GreekCities
     LEFKADA = [
       ['Λευκάδα', 'lefkada-LEF'],
       ['Μεγανήσι', 'meganisi-LEF']
-    ].freeze.clone
+    ].freeze
   end
 end

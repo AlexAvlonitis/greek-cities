@@ -6,6 +6,6 @@ module GreekCities
       ['Σκάλα', 'skala-LAK'],
       ['Μολάοι', 'molaoi-LAK'],
       ['Ελαφόνησος', 'elafonisos-LAK'],
-    ].freeze.clone
+    ].freeze
   end
 end

@@ -6,6 +6,6 @@ module GreekCities
       ['Δημητσάνα', 'dimitsana-ARK'],
       ['Μεγαλόπολη', 'megalopoli-ARK'],
       ['Βόρεια Κυνουρία', 'voreia-kinouria-ARK']
-    ].freeze.clone
+    ].freeze
   end
 end

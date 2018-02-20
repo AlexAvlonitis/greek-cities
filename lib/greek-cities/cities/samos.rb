@@ -4,6 +4,6 @@ module GreekCities
       ['Σάμος', 'samos-SAM'],
       ['Αγιος Κήρυκος', 'ag-kirikos-SAM'],
       ['Φούρνος Κορσεών', 'fournos-korseon-SAM']
-    ].freeze.clone
+    ].freeze
   end
 end

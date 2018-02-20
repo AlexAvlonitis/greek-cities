@@ -6,6 +6,6 @@ module GreekCities
       ['Αγία Φωτεινή', 'ag-foteini-RET'],
       ['Σπήλι', 'spili-RET'],
       ['Ανώγεια', 'anogeia-RET']
-    ].freeze.clone
+    ].freeze
   end
 end

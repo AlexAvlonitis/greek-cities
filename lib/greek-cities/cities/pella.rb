@@ -5,6 +5,6 @@ module GreekCities
       ['Αριδαία', 'aridaia-PEL'],
       ['Σκύδρα', 'skidra-PEL'],
       ['Γιαννιτσά', 'giannitsa-PEL']
-    ].freeze.clone
+    ].freeze
   end
 end

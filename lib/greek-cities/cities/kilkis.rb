@@ -3,6 +3,6 @@ module GreekCities
     KILKIS = [
       ['Κιλκίς', 'kilkis-KIL'],
       ['Πολύκαστρο', 'polikastro-KIL']
-    ].freeze.clone
+    ].freeze
   end
 end

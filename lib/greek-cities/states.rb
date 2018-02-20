@@ -39,6 +39,7 @@ module GreekCities
     ['Ξάνθης', 'xan'],
     ['Πέλλας', 'pel'],
     ['Πιερίας', 'pie'],
+    ['Πρεβέζης', 'pre'],
     ['Ρεθύμνης', 'ret'],
     ['Ροδόπης', 'rod'],
     ['Σάμου', 'sam'],
@@ -50,5 +51,5 @@ module GreekCities
     ['Χαλκιδικής', 'hal'],
     ['Χανίων', 'han'],
     ['Χίου', 'hio'],
-  ].freeze.clone
+  ].freeze
 end

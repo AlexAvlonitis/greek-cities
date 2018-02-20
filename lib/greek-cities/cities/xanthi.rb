@@ -5,6 +5,6 @@ module GreekCities
       ['Σμίνθη', 'sminthi-XAN'],
       ['Γενισσέα', 'genissea-XAN'],
       ['Τόπειρος', 'topeiros-XAN']
-    ].freeze.clone
+    ].freeze
   end
 end

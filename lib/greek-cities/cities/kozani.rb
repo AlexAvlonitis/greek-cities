@@ -5,6 +5,6 @@ module GreekCities
       ['Σιάτιστα', 'siatista-KOZ'],
       ['Πτολεμαΐδα', 'ptolemaida-KOZ'],
       ['Σέρβια', 'servia-KOZ']
-    ].freeze.clone
+    ].freeze
   end
 end

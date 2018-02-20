@@ -5,6 +5,6 @@ module GreekCities
       ['Επίδαυρος', 'epidavros-ARG'],
       ['Κρανίδι', 'kranidi-ARG'],
       ['Ναύπλιο', 'nafplio-ARG']
-    ].freeze.clone
+    ].freeze
   end
 end

@@ -7,6 +7,6 @@ module GreekCities
       ['Σοφάδες', 'sofades-KAR'],
       ['Καρδίτσα', 'karditsa-KAR'],
       ['Μουζάκι', 'mouzaki-KAR']
-    ].freeze.clone
+    ].freeze
   end
 end

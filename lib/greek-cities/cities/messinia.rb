@@ -7,6 +7,6 @@ module GreekCities
       ['Κυπαρισσία', 'kiparissia-MES'],
       ['Μελιγαλά', 'meligala-MES'],
       ['Καρδαμύλη', 'kardamili-MES']
-    ].freeze.clone
+    ].freeze
   end
 end

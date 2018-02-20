@@ -62,11 +62,11 @@ module GreekCities
       ['Βούλα', 'voula-ATT'],
       ['Μαρκόπουλο', 'markopoulo-ATT'],
       ['Κορωπί', 'koropi-ATT'],
-      ['Κεραταία', 'κerataia-ATT'],
+      ['Κεραταία', 'kerataia-ATT'],
       ['Ελευσίνα', 'eleusina-ATT'],
       ['Μάνδρα', 'mandra-ATT'],
       ['Μέγαρα', 'megara-ATT'],
       ['Ασπρόπυργος', 'aspropirgos-ATT']
-    ].freeze.clone
+    ].freeze
   end
 end

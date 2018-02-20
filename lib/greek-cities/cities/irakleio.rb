@@ -8,6 +8,6 @@ module GreekCities
       ['Γούρνες', 'gournes-IRA'],
       ['Ευαγγελισμός Καστελλίου', 'evaggelismos-kastelliou-IRA'],
       ['Βιάννος', 'viannos-IRA']
-    ].freeze.clone
+    ].freeze
   end
 end

@@ -7,6 +7,6 @@ module GreekCities
       ['Ορχομενός', 'orhomenos-BOI'],
       ['Λιβαδειά', 'livadeia-BOI'],
       ['Διστόμο - Αράχοβα - Αντίκυρα', 'distomo-arahova-antikira-BOI']
-    ].freeze.clone
+    ].freeze
   end
 end

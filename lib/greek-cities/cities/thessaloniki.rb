@@ -15,6 +15,6 @@ module GreekCities
       ['θέρμη', 'thermi-THESS'],
       ['Σταυρός', 'stavros-THESS'],
       ['Καλαμαριά', 'kalamaria-THESS']
-    ].freeze.clone
+    ].freeze
   end
 end

@@ -8,6 +8,6 @@ module GreekCities
       ['Αρχαία Ολυμπία', 'arhaia-olimpia-ILI'],
       ['Λεχαινά', 'lehaina-ILI'],
       ['Γαστούνη', 'gastouni-ILI']
-    ].freeze.clone
+    ].freeze
   end
 end

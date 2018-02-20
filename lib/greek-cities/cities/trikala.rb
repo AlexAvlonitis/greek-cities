@@ -5,6 +5,6 @@ module GreekCities
       ['Φαρκαδόνα', 'farkadona-TRI'],
       ['Τρίκαλα', 'trikala-TRI'],
       ['Καλαμπάκα', 'kalampaka-TRI']
-    ].freeze.clone
+    ].freeze
   end
 end

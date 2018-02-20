@@ -8,6 +8,6 @@ module GreekCities
       ['Μεσολόγγι', 'mesologgi-AIT'],
       ['Ναύπακτος', 'naupaktos-AIT'],
       ['Αστακός', 'astakos-AIT']
-    ].freeze.clone
+    ].freeze
   end
 end

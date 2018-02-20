@@ -9,6 +9,6 @@ module GreekCities
       ['Μέτσοβο', 'metsovo-IOA'],
       ['Αγία Κυριακή', 'ag-kiriaki-IOA'],
       ['Ελεούσα', 'eleousa-IOA']
-    ].freeze.clone
+    ].freeze
   end
 end

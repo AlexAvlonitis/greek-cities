@@ -20,6 +20,6 @@ module GreekCities
       ['Ίος', 'ios-KIK'],
       ['Μήλος', 'milos-KIK'],
       ['Πάρος', 'paros-KIK']
-    ].freeze.clone
+    ].freeze
   end
 end

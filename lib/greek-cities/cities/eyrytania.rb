@@ -4,6 +4,6 @@ module GreekCities
       ['Καρπενήσι', 'karpenisi-EYR'],
       ['Κερασοχώρι', 'kerasohori-EYR'],
       ['Άγραφα', 'agrafa-EYR']
-    ].freeze.clone
+    ].freeze
   end
 end

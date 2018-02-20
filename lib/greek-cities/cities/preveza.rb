@@ -4,6 +4,6 @@ module GreekCities
       ['Πρέβεζα', 'preveza-PRE'],
       ['Καναλάκι', 'kanalaki-PRE'],
       ['Φιλιππιάδα', 'filippiada-PRE']
-    ].freeze.clone
+    ].freeze
   end
 end

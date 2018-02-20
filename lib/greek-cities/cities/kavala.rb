@@ -5,6 +5,6 @@ module GreekCities
       ['Χρυσούπολη', 'hrisoupoli-KAV'],
       ['Ελευθερούπολη', 'eleutheroupoli-KAV'],
       ['Θάσος', 'thasos-KAV']
-    ].freeze.clone
+    ].freeze
   end
 end

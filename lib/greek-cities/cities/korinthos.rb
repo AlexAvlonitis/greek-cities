@@ -7,6 +7,6 @@ module GreekCities
       ['Ζευγολατιό', 'zeugolatio-KOR'],
       ['Λουτράκι', 'loutraki-KOR'],
       ['Νεμέα', 'nemea-KOR']
-    ].freeze.clone
+    ].freeze
   end
 end

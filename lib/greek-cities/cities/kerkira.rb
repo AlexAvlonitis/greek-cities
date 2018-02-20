@@ -3,6 +3,6 @@ module GreekCities
     KERKIRA = [
       ['Κέρκυρα', 'kerkira-KER'],
       ['Παξοί', 'paxoi-KER']
-    ].freeze.clone
+    ].freeze
   end
 end

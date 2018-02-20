@@ -4,7 +4,6 @@ module GreekCities
       ['Καστοριά', 'kastoria-KAS'],
       ['Αργός Ορεστικό', 'argos-orestiko-KAS'],
       ['Νεστόριο', 'nestorio-KAS'],
-      ['Νεστόριο', 'nestorio-KAS'],
-    ].freeze.clone
+    ].freeze
   end
 end

@@ -5,7 +5,7 @@ module GreekCities
       ['Σουφλί', 'soufli-EVR'],
       ['Διδυμότειχο', 'didimoteiho-EVR'],
       ['Ορεστιάδα', 'orestiada-EVR'],
-      ['Σαμοθράκη', 'sampthraki-EVR']
-    ].freeze.clone
+      ['Σαμοθράκη', 'samothraki-EVR']
+    ].freeze
   end
 end

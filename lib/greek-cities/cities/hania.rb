@@ -8,6 +8,6 @@ module GreekCities
       ['Παλαιόχωρα', 'palaiohora-HAN'],
       ['Γαύδος', 'gaudos-HAN'],
       ['Σφακιά', 'sfakia-HAN']
-    ].freeze.clone
+    ].freeze
   end
 end

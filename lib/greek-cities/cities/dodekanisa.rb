@@ -7,15 +7,15 @@ module GreekCities
       ['Αγαθονήσι', 'agathonisi-DOD'],
       ['Νίσυρος', 'nisiros-DOD'],
       ['Πάτμος', 'patmos-DOD'],
-      ['Κάλυμνος', 'κalimnos-DOD'],
+      ['Κάλυμνος', 'kalimnos-DOD'],
       ['Λειψοί', 'leipsoi-DOD'],
       ['Λέρος', 'leros-DOD'],
-      ['Κάσος', 'κasos-DOD'],
+      ['Κάσος', 'kasos-DOD'],
       ['Τήλος', 'tilos-DOD'],
       ['Σύμη', 'simi-DOD'],
       ['Καστελλόριζο', 'kastellorizo-DOD'],
       ['Χάλκη', 'halki-DOD'],
       ['Αστυπάλαια', 'astipalaia-DOD']
-    ].freeze.clone
+    ].freeze
   end
 end

@@ -4,6 +4,6 @@ module GreekCities
       ['Λιτόχωρο', 'litohoro-PIE'],
       ['Αιγίνιο', 'aiginio-PIE'],
       ['Κατερίνη', 'katerini-PIE']
-    ].freeze.clone
+    ].freeze
   end
 end

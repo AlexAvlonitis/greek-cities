@@ -6,6 +6,6 @@ module GreekCities
       ['Παρανέστι', 'paranesti-DRA'],
       ['Καλαμπάκι', 'kalampaki-DRA'],
       ['Κάτω Νευροκόπι', 'kato-nevrokopi-DRA']
-    ].freeze.clone
+    ].freeze
   end
 end
