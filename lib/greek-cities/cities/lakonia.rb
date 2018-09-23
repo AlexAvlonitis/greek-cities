@@ -5,7 +5,7 @@ module GreekCities
       ['Γύθειο', 'githeio-LAK'],
       ['Σκάλα', 'skala-LAK'],
       ['Μολάοι', 'molaoi-LAK'],
-      ['Ελαφόνησος', 'elafonisos-LAK'],
+      ['Ελαφόνησος', 'elafonisos-LAK']
     ].freeze
   end
 end
