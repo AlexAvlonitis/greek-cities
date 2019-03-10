@@ -5,7 +5,12 @@ greek-cities gem includes all the states (nomous) of Greece and their biggest ci
 
 ## Install the gem
 ```ruby
+# Rails
 gem 'greek-cities'
+
+# Ruby
+gem install 'greek-cities'
+require 'gc'
 ```
 
 ## List of all states

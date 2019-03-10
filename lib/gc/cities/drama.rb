@@ -1,0 +1,13 @@
+# frozen_string_literal: true
+
+module GC
+  module Cities
+    DRAMA = [
+      ['Δράμα', 'drama-DRA'],
+      ['Προσοτσάνη', 'porotsani-DRA'],
+      ['Παρανέστι', 'paranesti-DRA'],
+      ['Καλαμπάκι', 'kalampaki-DRA'],
+      ['Κάτω Νευροκόπι', 'kato-nevrokopi-DRA']
+    ].freeze
+  end
+end

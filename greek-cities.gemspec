@@ -1,11 +1,11 @@
 lib = File.expand_path('lib', __dir__)
-$LOAD_PATH.unshift lib unless $LOAD_PATH.include?(lib)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
-require 'greek-cities/version'
+require 'gc/version'
 
 Gem::Specification.new do |s|
   s.name          = 'greek-cities'
-  s.version       = GreekCities::VERSION
+  s.version       = GC::VERSION
   s.date          = '2016-09-30'
   s.summary       = 'A list of all greek states and cities'
   s.description   = 'A gem with the most complete city/states ' \
