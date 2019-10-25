@@ -1,63 +1,7 @@
 # frozen_string_literal: true
 
-Dir[File.dirname(__FILE__) + "/cities/*.rb"].each { |file| require file }
-
 module GC
   module City
-    CITY_HASH = {
-      aha: GC::Cities::AHAIA,
-      ait: GC::Cities::AITOLOAKARNANIA,
-      arg: GC::Cities::ARGOLIDA,
-      ark: GC::Cities::ARKADIA,
-      art: GC::Cities::ARTA,
-      att: GC::Cities::ATTIKI,
-      boi: GC::Cities::BOIOTIA,
-      dod: GC::Cities::DODEKANISA,
-      dra: GC::Cities::DRAMA,
-      evr: GC::Cities::EVROS,
-      eyr: GC::Cities::EYRYTANIA,
-      eyv: GC::Cities::EYVOIA,
-      flo: GC::Cities::FLORINA,
-      fok: GC::Cities::FOKIDA,
-      fth: GC::Cities::FTHIOTIDA,
-      gre: GC::Cities::GREVENA,
-      hal: GC::Cities::HALKIDIKI,
-      han: GC::Cities::HANIA,
-      hio: GC::Cities::HIOS,
-      ili: GC::Cities::ILIA,
-      ima: GC::Cities::IMATHIA,
-      ioa: GC::Cities::IOANNINA,
-      ira: GC::Cities::IRAKLEIO,
-      kar: GC::Cities::KARDITSA,
-      kas: GC::Cities::KASTORIA,
-      kav: GC::Cities::KAVALA,
-      kef: GC::Cities::KEFALLONIA,
-      ker: GC::Cities::KERKIRA,
-      kik: GC::Cities::KIKLADES,
-      kil: GC::Cities::KILKIS,
-      kor: GC::Cities::KORINTHOS,
-      koz: GC::Cities::KOZANI,
-      lak: GC::Cities::LAKONIA,
-      lar: GC::Cities::LARISA,
-      las: GC::Cities::LASITHI,
-      lef: GC::Cities::LEFKADA,
-      les: GC::Cities::LESVOS,
-      mag: GC::Cities::MAGNISIA,
-      mes: GC::Cities::MESSINIA,
-      pel: GC::Cities::PELLA,
-      pie: GC::Cities::PIERIA,
-      pre: GC::Cities::PREVEZA,
-      ret: GC::Cities::RETHYMNO,
-      rod: GC::Cities::RODOPI,
-      sam: GC::Cities::SAMOS,
-      ser: GC::Cities::SERRES,
-      thesp: GC::Cities::THESPROTIA,
-      thess: GC::Cities::THESSALONIKI,
-      tri: GC::Cities::TRIKALA,
-      xan: GC::Cities::XANTHI,
-      zak: GC::Cities::ZAKINTHOS
-    }.freeze
-
     def get_city_name(state_code, city)
       cities_by_code = cities(state_code)
       cities_hash = cities_by_code.map(&:reverse).to_h
@@ -65,7 +9,65 @@ module GC
     end
 
     def cities(code)
-      CITY_HASH[code.downcase.to_sym] || raise('city not found')
+      cities_hash_table[code.downcase.to_sym] || raise('city not found')
+    end
+
+    private
+
+    def cities_hash_table
+      @cities_hash_table ||= {
+        aha: GC::Helpers::LoadFiles.load('/cities/ahaia.yml'),
+        ait: GC::Helpers::LoadFiles.load('/cities/aitoloakarnania.yml'),
+        arg: GC::Helpers::LoadFiles.load('/cities/argolida.yml'),
+        ark: GC::Helpers::LoadFiles.load('/cities/arkadia.yml'),
+        art: GC::Helpers::LoadFiles.load('/cities/arta.yml'),
+        att: GC::Helpers::LoadFiles.load('/cities/attiki.yml'),
+        boi: GC::Helpers::LoadFiles.load('/cities/boiotia.yml'),
+        dod: GC::Helpers::LoadFiles.load('/cities/dodekanisa.yml'),
+        dra: GC::Helpers::LoadFiles.load('/cities/drama.yml'),
+        evr: GC::Helpers::LoadFiles.load('/cities/evros.yml'),
+        eyr: GC::Helpers::LoadFiles.load('/cities/eyrytania.yml'),
+        eyv: GC::Helpers::LoadFiles.load('/cities/eyvoia.yml'),
+        flo: GC::Helpers::LoadFiles.load('/cities/florina.yml'),
+        fok: GC::Helpers::LoadFiles.load('/cities/fokida.yml'),
+        fth: GC::Helpers::LoadFiles.load('/cities/fthiotida.yml'),
+        gre: GC::Helpers::LoadFiles.load('/cities/grevena.yml'),
+        hal: GC::Helpers::LoadFiles.load('/cities/halkidiki.yml'),
+        han: GC::Helpers::LoadFiles.load('/cities/hania.yml'),
+        hio: GC::Helpers::LoadFiles.load('/cities/hios.yml'),
+        ili: GC::Helpers::LoadFiles.load('/cities/ilia.yml'),
+        ima: GC::Helpers::LoadFiles.load('/cities/imathia.yml'),
+        ioa: GC::Helpers::LoadFiles.load('/cities/ioannina.yml'),
+        ira: GC::Helpers::LoadFiles.load('/cities/irakleio.yml'),
+        kar: GC::Helpers::LoadFiles.load('/cities/karditsa.yml'),
+        kas: GC::Helpers::LoadFiles.load('/cities/kastoria.yml'),
+        kav: GC::Helpers::LoadFiles.load('/cities/kavala.yml'),
+        kef: GC::Helpers::LoadFiles.load('/cities/kefallonia.yml'),
+        ker: GC::Helpers::LoadFiles.load('/cities/kerkira.yml'),
+        kik: GC::Helpers::LoadFiles.load('/cities/kiklades.yml'),
+        kil: GC::Helpers::LoadFiles.load('/cities/kilkis.yml'),
+        kor: GC::Helpers::LoadFiles.load('/cities/korinthos.yml'),
+        koz: GC::Helpers::LoadFiles.load('/cities/kozani.yml'),
+        lak: GC::Helpers::LoadFiles.load('/cities/lakonia.yml'),
+        lar: GC::Helpers::LoadFiles.load('/cities/larisa.yml'),
+        las: GC::Helpers::LoadFiles.load('/cities/lasithi.yml'),
+        lef: GC::Helpers::LoadFiles.load('/cities/lefkada.yml'),
+        les: GC::Helpers::LoadFiles.load('/cities/lesvos.yml'),
+        mag: GC::Helpers::LoadFiles.load('/cities/magnisia.yml'),
+        mes: GC::Helpers::LoadFiles.load('/cities/messinia.yml'),
+        pel: GC::Helpers::LoadFiles.load('/cities/pella.yml'),
+        pie: GC::Helpers::LoadFiles.load('/cities/pieria.yml'),
+        pre: GC::Helpers::LoadFiles.load('/cities/preveza.yml'),
+        ret: GC::Helpers::LoadFiles.load('/cities/rethymno.yml'),
+        rod: GC::Helpers::LoadFiles.load('/cities/rodopi.yml'),
+        sam: GC::Helpers::LoadFiles.load('/cities/samos.yml'),
+        ser: GC::Helpers::LoadFiles.load('/cities/serres.yml'),
+        thesp: GC::Helpers::LoadFiles.load('/cities/thesprotia.yml'),
+        thess: GC::Helpers::LoadFiles.load('/cities/thessaloniki.yml'),
+        tri: GC::Helpers::LoadFiles.load('/cities/trikala.yml'),
+        xan: GC::Helpers::LoadFiles.load('/cities/xanthi.yml'),
+        zak: GC::Helpers::LoadFiles.load('/cities/zakinthos.yml')
+      }
     end
   end
 end

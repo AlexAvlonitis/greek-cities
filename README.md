@@ -1,7 +1,8 @@
 [![Build Status](https://travis-ci.org/AlexAvlonitis/greek-cities.svg?branch=master)](https://travis-ci.org/AlexAvlonitis/greek-cities)
 
 # greek-cities ruby gem
-greek-cities gem includes all the states (nomous) of Greece and their biggest cities, displayed in greek.
+Includes all the states (nomous) of Greece and their biggest cities, displayed in greek.
+Easy way to populate Rails forms with greek cities.
 
 ## Install the gem
 ```ruby
