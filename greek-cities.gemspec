@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.version       = GC::VERSION
   s.date          = '2016-09-30'
   s.summary       = 'A list of greek states and their biggest cities'
-  s.description   = 'Easy way to create Rails forms with greek city and '\
+  s.description   = 'Easy way to create Rails forms with greek cities and '\
                     'states, diplayed in Greek.'
   s.authors       = ['Alex Avlonitis']
   s.email         = 'avlonitis@msn.com'
